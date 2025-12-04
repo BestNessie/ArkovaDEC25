@@ -24,9 +24,6 @@ const HeroSection = () => {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-arkova-blue-5 border border-arkova-blue-20 mb-8 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
             <div className="h-2 w-2 rounded-full bg-arkova-blue animate-pulse"></div>
-            <span className="text-xs sm:text-sm font-semibold text-arkova-blue uppercase tracking-wider">
-              Trusted by Enterprise Teams
-            </span>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 md:mb-8 tracking-tight leading-[1.05] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
             <span className="block text-arkova-dark mb-2">Trustless Compliance</span>
