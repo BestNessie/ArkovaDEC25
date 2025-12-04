@@ -24,21 +24,16 @@ const CtaSection: FC = () => {
       <div className="container-custom relative z-10">
         <div className="mx-auto max-w-4xl text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 mb-8 backdrop-blur-sm">
-            <span className="text-white text-2xl">◆</span>
-            <span className="text-sm font-semibold text-white uppercase tracking-wider">
-              Join Leading Enterprises
-            </span>
-          </div>
+          
 
           {/* Headline */}
           <h2 className="mb-6 text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight">
-            Ready to Secure Your Documents?
+          Be First to Experience Blockchain-Verified Compliance
           </h2>
           
           {/* Subheading */}
           <p className="mb-12 text-lg sm:text-xl leading-relaxed text-white/90 max-w-2xl mx-auto">
-            Join leading enterprises securing their documents with blockchain-verified compliance.
+          Join the waitlist and get early access to Arkova's revolutionary document verification platform.
           </p>
           
           {/* CTA buttons */}
@@ -69,18 +64,18 @@ const CtaSection: FC = () => {
           {/* Bottom metrics */}
           <div className="flex flex-wrap items-start justify-center gap-x-16 gap-y-8 text-white">
             <div className="text-center group cursor-default">
-              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">No Credit Card</p>
-              <p className="text-sm text-white/80">Free to get started</p>
+              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">Early Access</p>
+              <p className="text-sm text-white/80">Be among the first</p>
             </div>
             <div className="h-12 w-px bg-white/20"></div>
             <div className="text-center group cursor-default">
-              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">5 Minutes</p>
-              <p className="text-sm text-white/80">Quick setup</p>
+              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">Exclusive Benefits</p>
+              <p className="text-sm text-white/80">Limited availability</p>
             </div>
             <div className="h-12 w-px bg-white/20"></div>
             <div className="text-center group cursor-default">
-              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">24/7</p>
-              <p className="text-sm text-white/80">Expert support</p>
+              <p className="font-bold text-lg mb-1 group-hover:scale-110 transition-transform duration-300">Launch Updates</p>
+              <p className="text-sm text-white/80">Stay informed</p>
             </div>
           </div>
         </div>
